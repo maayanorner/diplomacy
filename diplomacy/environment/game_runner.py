@@ -20,9 +20,9 @@ from typing import Any, Dict, List, Optional, Sequence
 from absl import logging
 import numpy as np
 
-from diplomacy.environment import action_utils
-from diplomacy.environment import observation_utils as utils
-from diplomacy.network import network_policy
+from deepmind.diplomacy.environment import action_utils
+from deepmind.diplomacy.environment import observation_utils as utils
+from deepmind.diplomacy.network import network_policy
 
 
 class DiplomacyTrajectory:

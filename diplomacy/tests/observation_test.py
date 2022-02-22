@@ -24,12 +24,12 @@ from absl.testing import absltest
 import numpy as np
 import tree
 
-from diplomacy.environment import diplomacy_state
-from diplomacy.environment import game_runner
-from diplomacy.environment import observation_utils as utils
-from diplomacy.network import config
-from diplomacy.network import network_policy
-from diplomacy.network import parameter_provider
+from deepmind.diplomacy.environment import diplomacy_state
+from deepmind.diplomacy.environment import game_runner
+from deepmind.diplomacy.environment import observation_utils as utils
+from deepmind.diplomacy.network import config
+from deepmind.diplomacy.network import network_policy
+from deepmind.diplomacy.network import parameter_provider
 
 
 def construct_observations(obs: collections.OrderedDict) -> utils.Observation:

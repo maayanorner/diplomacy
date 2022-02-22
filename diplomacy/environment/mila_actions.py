@@ -18,10 +18,10 @@ import collections
 from typing import List, Set, Union
 import immutabledict
 
-from diplomacy.environment import action_list
-from diplomacy.environment import action_utils
-from diplomacy.environment import observation_utils as utils
-from diplomacy.environment import province_order
+from deepmind.diplomacy.environment import action_list
+from deepmind.diplomacy.environment import action_utils
+from deepmind.diplomacy.environment import observation_utils as utils
+from deepmind.diplomacy.environment import province_order
 
 _tag_to_area_id = immutabledict.immutabledict(
     province_order.province_name_to_id(province_order.MapMDF.BICOASTAL_MAP))
